@@ -1,0 +1,234 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-09T00:23:51.920Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "test hooks scenario",
+        "description": "",
+        "id": "hooks-feature;test-hooks-scenario",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "base url",
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.baseUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click login button",
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "redirect into profile page",
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.redirectIntoProfilePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T00:23:52.192Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "test hooks scenario1",
+        "description": "",
+        "id": "hooks-feature;test-hooks-scenario1",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "base url",
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.baseUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click login button",
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "redirect into profile page",
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.redirectIntoProfilePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T00:23:52.255Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "test hooks scenario outline",
+        "description": "",
+        "id": "hooks-feature;test-hooks-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wbl.stepdefinition.HookScenario.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "4 cucumbers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 0
+                }
+              ],
+              "location": "com.wbl.stepdefinition.HooksCucumber.startCucumbers(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "eat 2 cucumbers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 4
+                }
+              ],
+              "location": "com.wbl.stepdefinition.HooksCucumber.eatEatCucumbers(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "2 cucumbers left",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 0
+                }
+              ],
+              "location": "com.wbl.stepdefinition.HooksCucumber.leftCucumbersLeft(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "hooks feature",
+    "description": "",
+    "id": "hooks-feature",
+    "keyword": "Feature",
+    "uri": "classpath:features/hooks.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.793">
+<testcase classname="hooks feature" name="test hooks scenario" time="0.207">
+<system-out><![CDATA[Given base url..............................................................passed
+When click login button.....................................................passed
+Then redirect into profile page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="hooks feature" name="test hooks scenario1" time="0.017">
+<system-out><![CDATA[Given base url..............................................................passed
+When click login button.....................................................passed
+Then redirect into profile page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="hooks feature" name="test hooks scenario outline" time="0.006">
+<system-out><![CDATA[Given 4 cucumbers...........................................................passed
+When eat 2 cucumbers........................................................passed
+Then 2 cucumbers left.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
