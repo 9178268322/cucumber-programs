@@ -16,3 +16,11 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 public class RunCucumberTest {
 
 }
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = {"classpath:features/wbl.feature"},
+             glue = {"classpath:com/wbl/stepdefinition"})
+class WblRunner {
+
+}
