@@ -16,5 +16,6 @@ public class HooksCucumber {
 
     @Then("{int} cucumbers left")
     public void leftCucumbersLeft(int left) {
+
     }
 }
