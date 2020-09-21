@@ -18,21 +18,21 @@ public class FreecrmHomePage {
         System.setProperty("webdriver.chrome.driver", "E:\\Download\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://freecrm.co.in/");
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         driver.manage().window().maximize();
     }
 
     @When("user click the login button")
     public void userClickTheLoginButton() throws InterruptedException {
         driver.findElement(By.xpath("//span[contains(text(),'Log In')]")).click();
-
+        Thread.sleep(5000);
         driver.findElement(By.xpath("//input[@name='email']")).sendKeys("lakshay@whitebox-learning.com");
 
         driver.findElement(By.name("password")).sendKeys("Test@123");
 
         driver.findElement(By.xpath("//div[@class='ui fluid large blue submit button']")).click();
 
-        Thread.sleep(2000);
+        Thread.sleep(5000);
     }
 
     @Then("verify contacts deals and tasks")

@@ -1,0 +1,20 @@
+[
+  {
+    "firstName" : "Smith",
+    "lastName" : "Allen",
+    "email" : "smith@gmail.com",
+    "accountDetails" : {
+      "accountName" : "icici",
+      "accountType" : "current"
+    }
+  },
+  {
+    "firstName" : "Albert",
+    "lastName" : "Grey",
+    "email" : "albert@gmail.com",
+    "accountDetails" : {
+      "accountName": "hdfc",
+      "accountType": "saving"
+    }
+  }
+]

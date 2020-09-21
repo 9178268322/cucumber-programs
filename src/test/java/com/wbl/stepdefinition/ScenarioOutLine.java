@@ -12,6 +12,7 @@ public class ScenarioOutLine {
 
     @When("I eat {int} cucumbers")
     public void iEatEatCucumbers(int eatCucumbers) {
+
     }
 
     @Then("I should have {int} cucumbers")

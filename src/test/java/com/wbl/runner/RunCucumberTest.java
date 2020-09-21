@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"classpath:features/hooks.feature"},
+@CucumberOptions(features = {"classpath:features/bearcans.feature"},
                  glue = {"classpath:com/wbl/stepdefinition"},
                  dryRun = false,
                  plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json", "junit:target/cucumber.xml", "summary"},

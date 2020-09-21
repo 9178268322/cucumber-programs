@@ -8,10 +8,14 @@ Feature: Beer cans
     And a customer named "Dr. Bill"
     And a blog named "Expensive Therapy" owned by "Dr. Bill"
 
+  Scenario: don't have given step
+    When i don't know
+    Then you don't know
+
   # This is the beer can
   Scenario: Counting beer cans
     Given I have <opening balance> beer cans
-    And I have some few
+    Given I have some few
     And I have not clear
     And I have drunk <processed> beer cans
     When I go to my fridge

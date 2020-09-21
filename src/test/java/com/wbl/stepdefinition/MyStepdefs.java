@@ -39,4 +39,14 @@ public class MyStepdefs {
     @Then("I should not see something else")
     public void iShouldNotSeeSomethingElse() {
     }
+
+    @When("i don't know")
+    public void i_don_t_know() {
+
+    }
+
+    @Then("you don't know")
+    public void you_don_t_know() {
+
+    }
 }
